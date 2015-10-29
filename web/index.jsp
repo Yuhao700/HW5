@@ -5,6 +5,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Badminton Club</title>
+        <link rel="stylesheet" type="text/css" href="Styling.css"/>
     </head>
     <body>
         <h1>University of Iowa Badminton Club Member Database</h1>

@@ -6,6 +6,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Badminton Member Database</title>
+        <link rel="stylesheet" type="text/css" href="Styling.css"/>
     </head>
     
     <% String table = (String) request.getAttribute("table"); %>

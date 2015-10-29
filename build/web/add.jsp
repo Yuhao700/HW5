@@ -6,6 +6,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Add A New Friend</title>
+        <link rel="stylesheet" type="text/css" href="Styling.css"/>
     </head>
     <body>
         <h1>Add A New Friend</h1>
