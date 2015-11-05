@@ -27,7 +27,7 @@
                 
             <tr>
                 <td>Prefer Name:</td>
-                <td><input type="text" name="prefername" value="<%= member.getPrefer_Name() %>"  /></td>
+                <td><input type="text" name="prefername" value="<%= member.getPrefer_Name() %>" readonly/></td>
             </tr>
                 
             <tr>
