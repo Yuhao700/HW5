@@ -3,7 +3,6 @@ package dbHelper;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.lang.reflect.Member;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -59,7 +58,7 @@ public class ReadRecord {
     public void doRead() {
     
         try {
-            String query = "SELECT * FROM badminton WHERE memberID = ?";
+            String query = "SELECT * FROM badminton WHERE memberid = ?";
             
             PreparedStatement ps = conn.prepareStatement(query);
             
@@ -69,7 +68,7 @@ public class ReadRecord {
             
             this.results.next();
             
-            member.setMember_ID(this.results.getInt("memberID"));
+            member.setMember_ID(this.results.getInt("memberid"));
             member.setOfficial_Name(this.results.getString("officialname"));
             member.setPrefer_Name(this.results.getString("prefername"));
             member.setEmail(this.results.getString("email"));

@@ -81,9 +81,10 @@ public class UpdateFormServlet extends HttpServlet {
             ReadRecord rr = new ReadRecord(memberID);
             
             rr.doRead();
+                        
             Badminton member = rr.getMember();
-            
-            request.setAttribute("memberID", member);
+
+            request.setAttribute("member", member);
             
             String url = "/updateForm.jsp";
             
