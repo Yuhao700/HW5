@@ -11,5 +11,7 @@
         <h1>University of Iowa Badminton Club Member Database</h1>
         
         <a href="read">View All Members</a>
+        <br>
+        <a href="search.jsp">Search A Members</a>
     </body>
 </html>

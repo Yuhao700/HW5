@@ -17,5 +17,7 @@
         
         <br><br>
         <a href ="add">Add a New Members</a>
+        <br><br>
+        <a href="search.jsp">Search A Members</a>
     </body>
 </html>
