@@ -9,6 +9,17 @@
         <link rel="stylesheet" type="text/css" href="Styling.css"/>
     </head>
     <body>
+        <div class="wrap">
+            
+
+        
+            <%@ include file="includes/header.jsp" %>
+            
+            <%@ include file="includes/menu.jsp" %>
+            
+            
+        
+        <div class="main">
         <h1>Add A New Friend</h1>
         
         <form name="addForm" action ="addMember" method="get">
@@ -27,5 +38,12 @@
             <input type="submit" name="submit" value="Submit" />
             
         </form>
+                </div>
+        
+
+        
+        <%@ include file="includes/footer.jsp" %>
+        
+        </div>
     </body>
 </html>

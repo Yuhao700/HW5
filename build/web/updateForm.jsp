@@ -10,6 +10,17 @@
         <link rel="stylesheet" type="text/css" href="Styling.css"/>
     </head>
     <body>
+                <div class="wrap">
+            
+
+        
+            <%@ include file="includes/header.jsp" %>
+            
+            <%@ include file="includes/menu.jsp" %>
+            
+            
+        
+        <div class="main">
         <h1>Update A Member Information</h1>
         
         <form name="updateForm" action ="updateMember" method="get">
@@ -42,5 +53,12 @@
             </table>
             <input type="submit" name="submit" value="Update" />
         </form>
+                    </div>
+        
+
+        
+        <%@ include file="includes/footer.jsp" %>
+        
+        </div>
     </body>
 </html>

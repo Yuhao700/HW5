@@ -9,6 +9,18 @@
         <title>Search Members</title>
     </head>
     <body>
+        
+                <div class="wrap">
+            
+
+        
+            <%@ include file="includes/header.jsp" %>
+            
+            <%@ include file="includes/menu.jsp" %>
+            
+            
+        
+        <div class="main">
         <h1>Search Members</h1>
         
         <form name="searchForm" action="search" method="get">
@@ -21,6 +33,12 @@
             
             
         </form>
+                </div>
         
+
+        
+        <%@ include file="includes/footer.jsp" %>
+        
+        </div>
     </body>
 </html>

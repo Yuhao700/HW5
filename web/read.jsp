@@ -12,6 +12,17 @@
     <% String table = (String) request.getAttribute("table"); %>
     
     <body>
+         <div class="wrap">
+            
+
+        
+            <%@ include file="includes/header.jsp" %>
+            
+            <%@ include file="includes/menu.jsp" %>
+            
+            
+        
+        <div class="main">
         <h1>University of Iowa Badminton Club Member Database</h1>
         <%= table %>
         
@@ -19,5 +30,8 @@
         <a href ="add">Add a New Members</a>
         <br><br>
         <a href="search.jsp">Search A Members</a>
+        </div>
+        <%@ include file="includes/footer.jsp" %>
+        </div>
     </body>
 </html>
